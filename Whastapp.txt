@@ -11,7 +11,9 @@ public class openGoogle {
 				"C:\\Users\\navee\\Downloads\\New folder\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 		 WebDriver driver = new ChromeDriver();
 		 driver.manage().window().maximize();
-		 driver.navigate().to("https://demoqa.com/browser-windows");
+		driver.navigate().to("https://www.google.com");
+
+
 		
 	}
 
