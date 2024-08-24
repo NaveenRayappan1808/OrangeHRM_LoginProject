@@ -14,12 +14,19 @@ public class openGoogle {
 		 WebDriver driver = new ChromeDriver();
 		 driver.manage().window().maximize();
 		 driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+        
 //username 
 		 WebElement username= driver.findElement(By.name("username"));
 		 username.sendKeys("Admin");
 //password
 		 WebElement password= driver.findElement(By.name("password"));
 		 username.sendKeys("admin123");
+//submit
+		 WebElement submit1= driver.findElement(By.xpath("//*[@type='submit']"));
+		 System.out.println("Successfully you will click this button i know");
+		 submit1.click();
+		 
+		 
 
 		
 	}
